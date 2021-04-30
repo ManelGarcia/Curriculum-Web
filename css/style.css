@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
     /* font family */
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Girassol', cursive;
 }
 
 body {
     margin: 15%;
-    background-image: linear-gradient(to bottom left, skyblue, #cbd5df);
+    background-image: linear-gradient(to bottom left, skyblue, white);
 }
 
 .row:after {
@@ -43,7 +43,7 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 2vh 4vh;
+    padding: 2vw;
     text-decoration: none;
 }
 
@@ -54,10 +54,12 @@ li a:hover {
 }
 
 #header {
-    margin: 20vw;
+    padding: 4vw 0vw 0vw 0vw;
+    height: 70vh;
     text-align: center;
     background-size: cover;
-    font-size: 2vw
+    background-attachment: fixed;
+    font-size: 2.2vw
 }
 
 #section1 {
@@ -68,29 +70,35 @@ li a:hover {
 
 #section2 {
     background-color: #f7fafb;
-    padding: 5vh;
+    padding: 3vw;
 }
 
 #section3 {
     background-color: #f7fafb;
-    padding: 5vh;
+    padding: 3vw;
 }
 
 #section4 {
     background-color: #f7fafb;
-    padding: 5vh;
+    padding: 3vw;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
 #footer {
-    padding-top: 20vh;
-    padding: 20vh 2vh 0 2vh;
+    padding-top: 10vw;
+    padding: 5vw 1vw 0 3vw;
+    font-size: 1.5vw;
 }
 
 .column2 {
     float: left;
-    padding-left: 1vw;
+}
+
+.column2 i {
+    font-size: 3vw;
+    padding: 0 1vw 0 0vw;
+    color: peru;
 }
 
 .button1 {
@@ -98,7 +106,44 @@ li a:hover {
     background-color: inherit;
     color: navajowhite;
     float: right;
-    margin-top: -35vh;
-    margin-right: -22vh;
+    margin-top: -12vw;
+    margin-right: -10vw;
     font-size: 7vw;
+}
+
+@media only screen and (max-width: 750px) {
+    #header {
+        text-align: center;
+        padding: 35vw 0vw;
+        height: 93vh;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+    li a {
+        padding: 2.5vw;
+    }
+    .button1 {
+        float: right;
+        margin-top: 0vw;
+        margin-right: 0vw;
+        font-size: 8vw;
+    }
+    body {
+        margin: 10%;
+    }
+    .column2 i {
+        font-size: 6vw;
+        padding: 0 5vw 0 0vw;
+        color: peru;
+    }
 }
