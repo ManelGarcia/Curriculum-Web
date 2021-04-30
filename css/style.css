@@ -45,6 +45,7 @@ li a {
     text-align: center;
     padding: 2vw;
     text-decoration: none;
+    font-size: 115%;
 }
 
 li a:hover {
@@ -66,6 +67,7 @@ li a:hover {
     background-color: #f7fafb;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 0 0 5px 1px silver;
 }
 
 #section2 {
@@ -98,7 +100,7 @@ li a:hover {
 .column2 i {
     font-size: 3vw;
     padding: 0 1vw 0 0vw;
-    color: peru;
+    color: gold;
 }
 
 .button1 {
