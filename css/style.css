@@ -7,6 +7,7 @@
 body {
     margin: 15%;
     background-image: linear-gradient(to bottom left, skyblue, white);
+    /* background-image: url(../img/Sin\ título.png); */
 }
 
 .row:after {
@@ -22,6 +23,10 @@ body {
 
 .black {
     background: linear-gradient(#3a4556, #3a4556);
+}
+
+.kirby-mode {
+    background-image: url(../img/Sin\ título.png);
 }
 
 ul {
@@ -113,6 +118,13 @@ li a:hover {
     font-size: 7vw;
 }
 
+#footer img {
+    height: 60px;
+    object-fit: cover;
+    margin-top: 12.5vw;
+    margin-right: 10vh;
+}
+
 @media only screen and (max-width: 750px) {
     #header {
         text-align: center;
@@ -146,6 +158,11 @@ li a:hover {
     .column2 i {
         font-size: 6vw;
         padding: 0 5vw 0 0vw;
-        color: peru;
+    }
+    #footer img {
+        height: 60px;
+        object-fit: cover;
+        margin-top: 1vw;
+        margin-right: 10vh;
     }
 }
