@@ -10,7 +10,7 @@ body {
     /* background-image: url(../img/Sin\ título.png); */
 }
 
-img {
+#section5 img {
     height: 200px;
 }
 
@@ -72,7 +72,6 @@ li a:hover {
     background-color: #f7fafb;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: 0 0 5px 1px silver;
 }
 
 #section2 {
@@ -97,6 +96,10 @@ li a:hover {
     border-bottom-right-radius: 5px;
 }
 
+iframe {
+    border-radius: 10px;
+}
+
 #footer {
     padding-top: 10vw;
     padding: 5vw 1vw 0 3vw;
@@ -104,6 +107,11 @@ li a:hover {
 }
 
 .column2 {
+    float: left;
+}
+
+.column3 {
+    width: 50%;
     float: left;
 }
 
@@ -128,32 +136,47 @@ li a:hover {
     padding: 3vw;
 }
 
+#sectionX p {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 5px;
+    background-color: #e2e8f0;
+    border-radius: 50px;
+}
+
 .skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     color: white;
+    margin: auto;
     text-align: center;
 }
 
 .sk1 {
-    width: 50%;
+    width: 100%;
     background-color: coral;
+    border-radius: 50px;
 }
 
 .sk2 {
-    width: 50%;
+    width: 75%;
     background-color: cornflowerblue;
+    border-radius: 50px;
 }
 
 .sk3 {
     width: 50%;
     background-color: palegreen;
+    border-radius: 50px;
 }
 
 .sk4 {
-    width: 50%;
+    width: 25%;
     background-color: palevioletred;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 750px) {
