@@ -10,6 +10,10 @@ body {
     /* background-image: url(../img/Sin\ título.png); */
 }
 
+img {
+    height: 200px;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -66,8 +70,8 @@ li a:hover {
 
 #section1 {
     background-color: #f7fafb;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     box-shadow: 0 0 5px 1px silver;
 }
 
@@ -89,8 +93,8 @@ li a:hover {
 #section5 {
     background-color: #f7fafb;
     padding: 3vw;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #footer {
@@ -129,6 +133,7 @@ li a:hover {
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    text-align: center;
 }
 
 .sk1 {
