@@ -25,10 +25,6 @@ body {
     background: linear-gradient(#3a4556, #3a4556);
 }
 
-.kirby-mode {
-    background-image: url(../img/Sin\ título.png);
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -88,6 +84,11 @@ li a:hover {
 #section4 {
     background-color: #f7fafb;
     padding: 3vw;
+}
+
+#section5 {
+    background-color: #f7fafb;
+    padding: 3vw;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -118,11 +119,36 @@ li a:hover {
     font-size: 7vw;
 }
 
-#footer img {
-    height: 60px;
-    object-fit: cover;
-    margin-top: 12.5vw;
-    margin-right: 10vh;
+#sectionX {
+    background-color: #f7fafb;
+    padding: 3vw;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.sk1 {
+    width: 50%;
+    background-color: coral;
+}
+
+.sk2 {
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.sk3 {
+    width: 50%;
+    background-color: palegreen;
+}
+
+.sk4 {
+    width: 50%;
+    background-color: palevioletred;
 }
 
 @media only screen and (max-width: 750px) {
