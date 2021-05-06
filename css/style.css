@@ -10,8 +10,18 @@ body {
     /* background-image: url(../img/Sin\ título.png); */
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section2 img {
+    width: 100%;
+}
+
 #section5 img {
-    height: 200px;
+    height: 26vh;
 }
 
 .row:after {
