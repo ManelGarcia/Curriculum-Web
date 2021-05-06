@@ -5,9 +5,16 @@
 }
 
 body {
-    margin: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15%;
     background-image: linear-gradient(to bottom left, skyblue, white);
     /* background-image: url(../img/Sin\ título.png); */
+}
+
+#right-sidebar li {
+    border: none;
+    background-color: inherit;
 }
 
 .flex {
@@ -22,6 +29,16 @@ body {
 
 #section5 img {
     height: 26vh;
+}
+
+#video_section {
+    background-color: #f7fafb;
+    padding: 3vw;
+}
+
+#video_section iframe {
+    width: 100%;
+    height: 65vh;
 }
 
 .row:after {
@@ -69,13 +86,16 @@ li a:hover {
     transition: 0.3s;
 }
 
+#boton {
+    height: 10vh;
+}
+
 #header {
-    padding: 4vw 0vw 0vw 0vw;
-    height: 71vh;
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
-    font-size: 2.2vw
+    font-size: 2.2vw;
+    height: 90vh;
 }
 
 #section1 {
@@ -139,10 +159,28 @@ iframe {
     background-color: inherit;
     color: navajowhite;
     float: right;
-    margin-top: -12vw;
-    margin-right: -10vw;
     font-size: 7vw;
+    position: relative;
+    top: 0;
+    right: -20px;
 }
+
+.column1 {
+    width: 100%;
+    float: left;
+}
+
+
+/* boton idioma */
+
+select {
+    border: none;
+    background-color: inherit;
+    font-size: inherit;
+}
+
+
+/* Porcentajes */
 
 #sectionX {
     background-color: #f7fafb;
@@ -192,26 +230,46 @@ iframe {
     border-radius: 50px;
 }
 
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f7fafb;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: gold;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: goldenrod;
+}
+
 @media only screen and (max-width: 750px) {
     #header {
         text-align: center;
-        padding: 35vw 0vw;
-        height: 95vh;
+        background-size: cover;
+        height: 100vh;
     }
     h1 {
-        font-size: 8vw;
+        font-size: 9vw;
     }
     h2 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     h3 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     li a {
         padding: 2.5vw;
+        font-size: 2vw;
     }
     .button1 {
         float: right;
@@ -219,8 +277,11 @@ iframe {
         margin-right: 0vw;
         font-size: 8vw;
     }
+    #section1 {
+        font-size: 1.5vw;
+    }
     body {
-        margin: 10%;
+        margin: 1%;
     }
     .column2 i {
         font-size: 6vw;
@@ -237,5 +298,14 @@ iframe {
         text-align: left;
         padding-right: 0;
         padding-left: 0;
+    }
+    iframe {
+        width: 100%;
+        display: flex;
+    }
+    .flex {
+        display: table;
+        align-items: center;
+        justify-content: center;
     }
 }
