@@ -87,7 +87,7 @@ li a:hover {
 }
 
 #boton {
-    height: 10vh;
+    height: 0vh;
 }
 
 #header {
@@ -95,7 +95,7 @@ li a:hover {
     background-size: cover;
     background-attachment: fixed;
     font-size: 2.2vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 #section1 {
@@ -160,9 +160,10 @@ iframe {
     color: navajowhite;
     float: right;
     font-size: 7vw;
-    position: relative;
+    position: absolute;
     top: 0;
-    right: -20px;
+    right: 50px;
+    top: 50px;
 }
 
 .column1 {
@@ -282,6 +283,7 @@ select {
     }
     body {
         margin: 1%;
+        margin-bottom: 14%;
     }
     .column2 i {
         font-size: 6vw;
@@ -303,7 +305,7 @@ select {
         width: 100%;
         display: flex;
     }
-    .flex {
+    .flex :not(#header) {
         display: table;
         align-items: center;
         justify-content: center;
