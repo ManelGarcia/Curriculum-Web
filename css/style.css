@@ -61,6 +61,10 @@ body {
     color: white;
 }
 
+.daek {
+    color: white;
+}
+
 .black {
     background: linear-gradient(#3a4556, #3a4556);
 }
@@ -187,12 +191,18 @@ select {
     border: none;
     background-color: inherit;
     font-size: inherit;
+    color: gold;
 }
 
 
 /* Porcentajes */
 
 #sectionX {
+    background-color: #f7fafb;
+    padding: 3vw;
+}
+
+#sectionEX {
     background-color: #f7fafb;
     padding: 3vw;
 }
@@ -238,6 +248,39 @@ select {
     width: 100%;
     background-color: palevioletred;
     border-radius: 50px;
+}
+
+.lan {
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.cat {
+    width: 100%;
+    background-color: royalblue;
+    border-radius: 20px;
+}
+
+.cas {
+    width: 100%;
+    background-color: rosybrown;
+    border-radius: 20px;
+}
+
+.ing {
+    width: 70%;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+
+.jap {
+    width: 20%;
+    background-color: brown;
+    border-radius: 20px;
 }
 
 
